@@ -21,7 +21,7 @@ public class BotConfig
     /// <summary>
     /// Use the IPv6 to connect to server, only if your network support IPv6
     /// </summary>
-    public bool UseIPv6Network { get; set; } = false;
+    public bool UseIPv6Network { get; set; } = true;
     
     /// <summary>
     /// Get optimum server from Tencent MSF server, set to false to use hardcode server
@@ -31,7 +31,7 @@ public class BotConfig
     /// <summary>
     /// Custom Sign Provider
     /// </summary>
-    public SignProvider? CustomSignProvider { get; set; } = null;
+    public SignProvider? CustomSignProvider { get; set; } = "http://sign.libfekit.so:8080/api/sign";
 }
 
 /// <summary>
