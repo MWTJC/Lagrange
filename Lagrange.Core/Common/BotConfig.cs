@@ -31,7 +31,7 @@ public class BotConfig
     /// <summary>
     /// Custom Sign Provider
     /// </summary>
-    public SignProvider? CustomSignProvider { get; set; } = "http://sign.libfekit.so:8080/api/sign";
+    public SignProvider? CustomSignProvider { get; set; } = null;
 }
 
 /// <summary>
